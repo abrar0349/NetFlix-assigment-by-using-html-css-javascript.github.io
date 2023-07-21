@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Bootstrap link -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  
+  <title>Document</title>
+  <style>
+    .videoCont{
+     /* border: 2px solid green; */
+     padding-top: 20px;
+     width: 70vw;
+     height: 70vh;
+     margin-bottom: 200px;
+    }
+    .videoCont2{
+      width: 30vw;
+      height: 80vh;
+    }
+    .videoCont2 video{
+      width: 100%;
+      height: 50%;
+    }
+    .videoCont video{
+      background-color: black;
+      width: 95%;
+      height: 100%;
+      margin-left: 10px;
+    }
+    .videoCont3{
+      width: 68vw;
+      height: 10%;
+      display: grid;
+      grid-template-columns: auto auto;
+    }
+.videoCont3 .main{
+  width: 30%;
+  /* height: 0%; */
+  /* border: 2px solid greenyellow; */
+  margin-bottom: -10px;
+}
+    .videoCont3 video{
+      margin-top: -100px;
+      width: 100%;
+      height: 50%;
+    }
+
+  </style>
+
+</head>
+<body>
+  <div class="row">
+  <div class="videoCont col-8">
+    <video src="videos/One.mp4" class="" controls autoplay loop id = "mianVideo"></video>
+  </div>
+
+    <div class="videoCont2 col-4">
+      <video src="videos/Tariq_jameel.mp4" class=""  autoplay loop onclick = "btnVideo()"></video>
+    <center><h4>video</h4></center>
+    <center><p style="font-size: 15px;">Lorem ipsum dolor sit amet consectetur elit. Voluptatibus</p></center>
+
+    <video src="videos/Tariq_jameel_1.mp4" class=""  autoplay loop onclick = "btnVideo1()"></video>
+    <center><h4>video</h4></center>
+    <center><p style="font-size: 15px;">Lorem ipsum dolor sit amet consectetur elit. Voluptatibus</p></center>
+
+    <video src="videos/Tariq_jameel_2.mp4" class=""  autoplay loop onclick = "btnVideo2()"></video>
+    <center><h4>video</h4></center>
+    <center><p style="font-size: 15px;">Lorem ipsum dolor sit amet consectetur elit. Voluptatibus</p></center>
+
+    <video src="videos/Tariq_jameel_3.mp4" class=""  autoplay loop onclick = "btnVideo3()"></video>
+    <center><h4>video</h4></center>
+    <center><p style="font-size: 15px;">Lorem ipsum dolor sit amet consectetur elit. Voluptatibus</p></center>
+  </div>
+  </div>
+
+  
+  <div class="videoCont3">
+      <div class="row">
+    
+  <div class="main">
+      <video src="videos/Tariq_jameel_4.mp4"  autoplay loop onclick = "btnVideo4()"></video>
+      <center><h4>video</h4></center>
+      <center><p style="font-size: 15px;">Lorem ipsum dolor sit amet consectetur elit. Voluptatibus</p></center>
+    </div>
+    
+    <div class="main ">
+    <video src="videos/Tariq_jameel_5.mp4"  autoplay loop onclick = "btnVideo5()"></video>
+      <center><h4>video</h4></center>
+      <center><p style="font-size: 15px;">Lorem ipsum dolor sit amet consectetur elit. Voluptatibus</p></center>
+    </div>
+
+    <div class="main">
+      <video src="videos/Tariq_jameel_6.mp4"  autoplay loop onclick = "btnVideo6()"></video>
+      <center><h4>video</h4></center>
+      <center><p style="font-size: 15px;">Lorem ipsum dolor sit amet consectetur elit. Voluptatibus</p></center>
+    </div>
+    
+    <div class="main ">
+    <video src="videos/Tariq_jameel_7.mp4"  autoplay loop onclick = "btnVideo7()"></video>
+      <center><h4>video</h4></center>
+      <center><p style="font-size: 15px;">Lorem ipsum dolor sit amet consectetur elit. Voluptatibus</p></center>
+    </div>
+
+    <div class="main">
+      <video src="videos/Naat_1.mp4"  autoplay loop onclick = "naat1()"></video>
+      <center><h4>video</h4></center>
+      <center><p style="font-size: 15px;">Lorem ipsum dolor sit amet consectetur elit. Voluptatibus</p></center>
+    </div>
+    
+    <div class="main ">
+    <video src="videos/Naat_2.mp4"  autoplay loop onclick = "naat2()"></video>
+      <center><h4>video</h4></center>
+      <center><p style="font-size: 15px;">Lorem ipsum dolor sit amet consectetur elit. Voluptatibus</p></center>
+    </div>
+
+    </div>
+  </div>
+  
+  
+<script>
+  function btnVideo(){
+    document.getElementById('mianVideo').setAttribute('src','videos/Tariq_jameel.mp4')
+  }
+  function btnVideo1(){
+    document.getElementById('mianVideo').setAttribute('src','videos/Tariq_jameel_1.mp4')
+  }
+  function btnVideo2(){
+    document.getElementById('mianVideo').setAttribute('src','videos/Tariq_jameel_2.mp4')
+  }
+  function btnVideo3(){
+    document.getElementById('mianVideo').setAttribute('src','videos/Tariq_jameel_3.mp4')
+  }
+  function btnVideo4(){
+    document.getElementById('mianVideo').setAttribute('src','videos/Tariq_jameel_4.mp4')
+  }
+  function btnVideo5(){
+    document.getElementById('mianVideo').setAttribute('src','videos/Tariq_jameel_5.mp4')
+  }
+  function btnVideo6(){
+    document.getElementById('mianVideo').setAttribute('src','videos/Tariq_jameel_6.mp4')
+  }
+  function btnVideo7(){
+    document.getElementById('mianVideo').setAttribute('src','videos/Tariq_jameel_7.mp4')
+  }
+  function naat1(){
+    document.getElementById('mianVideo').setAttribute('src','videos/Naat_1.mp4')
+  }
+  function naat2(){
+    document.getElementById('mianVideo').setAttribute('src','videos/Naat_2.mp4')
+  }
+    </script>
+
+</body>
+</html>

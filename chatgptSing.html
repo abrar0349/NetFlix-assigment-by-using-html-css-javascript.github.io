@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
+    <link rel="stylesheet" href="index.css">
+
+
+    <style>
+        body {
+          font-family: Arial, sans-serif;
+          background-color: #000000;
+          color: #FFFFFF;
+          margin: 0;
+          padding: 0;
+        }
+    
+        .container {
+          max-width: 400px;
+          margin: auto;
+          padding:  50px;
+          background-color: transparent;
+          border-radius: 5px;
+          box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+          text-align: center;
+          margin-top: -70px;
+          height: 70%;
+          backdrop-filter: blur(10px);
+          -webkit-backdrop-filter: blur(10px);
+          padding-bottom: 20%;
+        }
+
+        .form-group {
+          margin-bottom: 20px;
+        }
+    
+        .form-group input {
+          width: 100%;
+          padding: 20px 10px;
+          border: none;
+          background-color: #333333;
+          color: #FFFFFF;
+          border-radius: 5px;
+        }
+    
+        .form-group input:focus {
+          outline: none;
+        }
+    
+        .form-group input[type="submit"] {
+          background-color: #E50914;
+          color: #FFFFFF;
+          cursor: pointer;
+          transition: background-color 0.3s ease;
+        }
+    
+        .form-group input[type="submit"]:hover {
+          background-color: #C40812;
+        }
+    
+        .form-group input[type="submit"]:focus {
+          outline: none;
+        }
+    
+        .form-group a {
+          color: #FFFFFF;
+          text-decoration: none;
+        }
+
+        .form-group .checkbox-container {
+          display: flex;
+          flex-wrap: wrap;
+          align-items: flex-start;
+          justify-content: flex-start;
+          margin-top: 20px;
+        }
+
+        .form-group .checkbox-container input[type="checkbox"] {
+          margin-left: -100px;
+        }
+
+        /* footer code  */
+
+    .site-footer {
+      background-color: rgba(0, 0, 0, 0.8);
+      color: #757575;
+      padding: 40px;
+      max-width: 1000px;
+      margin: 0 auto;
+    }
+
+
+    .footer-divider {
+      height: 1px;
+      background-color: #FFFFFF;
+      margin-bottom: 20px;
+    }
+
+    .footer-top-a {
+      color: #737373;
+      text-decoration: none;
+    }
+
+    .footer-links {
+      list-style-type: none;
+      padding: 0;
+      margin: 0;
+      display: flex;
+      justify-content: center;
+    }
+
+    .footer-link-item {
+      margin: 0 10px;
+    }
+
+    .footer-link {
+      color: #757575;
+      text-decoration: none;
+    }
+
+    .footer-link:hover {
+      text-decoration: underline;
+    }
+
+    .site-footer-wrapper {
+      color: #757575;
+      font-size: 1em;
+      margin-top: 80px;
+      min-width: 190px;
+      padding-bottom: 20px;
+      position: relative;
+      width: 100%;
+    }
+
+    .hybrid-login-wrapper {
+      background-color: #000;
+      color: #fff;
+    }
+      </style>
+    <title>Document</title>
+</head>
+<body>
+    <div class="formBody">
+    
+    <div class="logo">
+   
+        <h1 class="heading1">Netflix</h1>
+       
+    </div>
+
+    <div class="container">
+        <h2 style="position: relative; left: -150px; font-weight: bold;">Sign In</h2>
+        <br><br>
+        <!-- <form> -->
+          <div class="form-group">
+            <input type="text" placeholder="Gmail" required id = "emailInput">
+          </div>
+          <div class="form-group">
+            <input type="password" placeholder="Password" required id = "passInput"> 
+          </div>
+          <br>
+          <div class="form-group">
+            <input type="submit" value="Sign In" onclick="vlaidaBtn()">
+          </div>
+
+          <div class="form-group checkbox-container">
+            <input type="checkbox" id="remember-checkbox">
+            <label for="remember-checkbox">Remember me</label>
+          </div>
+        
+          <!-- </form> -->
+
+        <p style="margin-bottom: 10px; color: gray; margin-top: 20%;">New to Netflix? <a href="#" style="color: white;">Sign up now.</a></p>
+        <p style="color: gray; margin-bottom: 500px;">This page is protected by Google reCAPTCHA to ensure you're not a bot. <a href="#" style="color: lightblue;">Learn more.</a></p>
+      </div>
+
+      <!-- footer code -->
+
+      <footer class="site-footer">
+        <div class="footer-divider"></div>
+        <div class="site-footer-wrapper centered">
+          <div class="site-footer">
+            <p class="footer-top">
+              <a class="footer-top-a" href="https://help.netflix.com/contactus" style="position: relative; bottom: 29px;">Questions? Contact us.</a>
+            </p>
+            <ul class="footer-links structural">
+              <li class="footer-link-item">
+                <a class="footer-link" href="https://help.netflix.com/support/412">
+                  <span>FAQ</span>
+                </a>
+              </li>
+              <li class="footer-link-item">
+                <a class="footer-link" href="https://help.netflix.com">
+                  <span>Help Center</span>
+                </a>
+              </li>
+              <li class="footer-link-item">
+                <a class="footer-link" href="https://help.netflix.com/legal/termsofuse">
+                  <span>Terms of Use</span>
+                </a>
+              </li>
+              <li class="footer-link-item">
+                <a class="footer-link" href="https://help.netflix.com/legal/privacy">
+                  <span>Privacy</span>
+                </a>
+              </li>
+              <li class="footer-link-item">
+                <a class="footer-link" href="#">
+                  <span>Cookie Preferences</span>
+                </a>
+              </li>
+              <li class="footer-link-item">
+                <a class="footer-link" href="https://help.netflix.com/legal/corpinfo">
+                  <span>Corporate Information</span>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </footer>
+      
+
+    </div>
+
+
+    <!-- javascript coding starting from here -->
+
+    <script>
+
+      const arrmain = [{user_Email: 'abrar0349khan@gmail.com', userpassword: '12345',}]
+
+      var urlParams = new URLSearchParams(window.location.search)
+      var userString = decodeURIComponent(urlParams.get('objData'));
+      var userEmail = JSON.parse(userString);
+     
+      arrmain.push(userEmail)
+      console.log(userEmail)
+    
+      function vlaidaBtn(){
+
+      const userEmailInput = document.getElementById('emailInput').value;
+      const userPassInput =   document.getElementById('passInput').value;
+
+      const userFind = arrmain.find((userDetails) => { if(userDetails.user_Email == userEmailInput && userDetails.userpassword == userPassInput){
+        return userDetails
+      }})
+
+      if(userFind){
+      window.location.href = "video.html";
+      }
+
+    }
+    </script>
+
+</body>
+</html>

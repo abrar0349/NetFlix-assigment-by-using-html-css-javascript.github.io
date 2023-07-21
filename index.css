@@ -1,0 +1,216 @@
+*{
+margin: 0;
+padding: 0;
+}
+
+.container1{
+    background-image: url(picture/netflix-background.jpg);
+    width: 100vw;
+    height: 100vh;
+    border-bottom: 10px solid gray;
+}
+div.logo{
+    width: 85%;
+    height: 20%;
+    margin: auto;
+    padding-top: 2%;
+}
+div.logo h1{
+    color: red;
+    display: inline-block;
+}
+div.logo button{
+    background-color: red;
+    display: inline-block;
+    color: white;
+    border: none;
+    margin-left: 70%;
+    font-size: 15px;
+    padding: 5px 15px;
+    border-radius: 5px;
+}
+div.container1Body{
+    width: 90%;
+    height: 50%;
+    color: white;
+    margin: auto;
+    margin-top: 10%;
+    text-align: center;
+    line-height: 40px;
+}
+div.container1Body h1{
+    font-size: 45px;
+    font-weight: 700;
+}
+div.container1Body p{
+    font-size: 20px;
+    font-weight: bold;
+}
+div.container1Body input{
+    outline: none;
+    font-size: 15px;
+    padding: 5px 140px 5px 20px;
+    border: 2px solid white;
+    background-color: gray;
+    border-radius: 5px;
+}
+div.container1Body input::placeholder{
+    color: white;
+}
+div.container1Body button{
+    background-color: red;
+    border: none;
+    padding: 5px 28px;
+    border-radius: 5px;
+    color: white;
+    font-size: 25px;
+}
+
+/* Container2 is starting from there */
+
+div.container2{
+    background-color: black;
+    width: 100vw;
+    height: 80vh;
+    border-bottom: 10px solid gray;
+    display: flex;
+}
+div.container2 div.left{
+    width: 50vw;
+    height: 90%;
+    border: 2px solid black;
+    display: block;
+    color: white;
+    padding-left: 50px;
+   }
+div.container2 div.left h1{
+    margin-top: 30%;
+    margin-bottom: 10%;
+    font-size: 40px;
+    text-align: left;
+    font-weight: bold;
+}
+div.container2 div.left p{
+   font-size: 20px;
+   line-height: 10px;
+}
+div.container2 div.right{
+    display: flex;
+    align-items: center;
+}
+div.container2 div.right img{
+    margin-left: 80px;
+}
+/* container3 start from here */
+div.container3{
+    display: block;
+    background-color: black;
+    width: 100vw;
+    height: 80vh;
+    border-bottom: 10px solid gray;
+    display: flex;
+    align-items: center;
+}
+div.container3 div.left{
+    width: 50vw;
+    height: 90%;
+    padding-top: 13%;
+    /* border: 2px solid black; */
+    display: block;
+    color: white;
+}
+div.container3 div.left p{
+    font-size: 20px;
+}
+div.container3 div.left h1{
+    font-size: 40px;
+}
+div.container3 div.right{
+    display: flex;
+    align-items: center;
+}
+
+div.container3 div.right img{
+    margin-right: 80px;
+    margin-left: 80px;
+}
+
+/* container4 is starting from here */
+div.container4{
+    display: block;
+    background-color: black;
+    width: 100vw;
+    height: 80vh;
+    border-bottom: 10px solid gray;
+    display: flex;
+    align-items: center;
+    text-indent: 50px;
+}
+div.container4 div.left{
+    height: 90%;
+    padding-top: 13%;
+    display: block;
+    color: white;
+}
+div.container4 div.left h1{
+    font-size: 40px;
+    font-weight: bold;
+}
+div.container4 div.left p{
+    font-size: 20px;
+}
+
+/* container5 is starting from here */
+div.container5{
+    display: block;
+    background-color: black;
+    width: 100vw;
+    height: 80vh;
+    border-bottom: 10px solid gray;
+    display: flex;
+    align-items: center;
+    text-indent: 50px;
+    color: white;
+}
+div.container5 div.right{
+    padding-top: 13%;
+    /* border: 2px solid white; */
+    display: block;
+    color: white;
+    display: grid;
+    padding-bottom: 200px;
+    padding-left: 300px;
+    grid-template-rows: auto auto auto auto auto ;
+    align-content: center;
+}
+div.container5 div.right h1{
+    font-size: 40px;
+
+}
+div.container5 div.right p{
+    font-size: 20px;
+}
+div.container5 div.left img{
+    margin-top: 10px;
+}
+/* form style coding */
+/* .formBody{
+    background-image: url('picture/netflix-background.jpg');
+    width: 100vw;
+    height: 100vh;
+    background-repeat:no-repeat;
+    background-size: contain;
+} */
+
+.FooterPart{
+    background-color: black;
+    width: 100%;
+    height: 50%;
+    outline: none;
+    font-size: 15px;
+    padding-bottom: 100px;
+    border: 2px solid white;
+    border-radius: 5px;
+}
+
+
